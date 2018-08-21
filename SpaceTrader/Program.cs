@@ -84,8 +84,19 @@ namespace SpaceTrader
                         spaceshipStats();
                         break;
                     }
+                default:
+
+                    {
+
+                    }
+                    Console.WriteLine("I do not understand that command .......");
+                    Console.WriteLine("Please try again.");
+                    Console.ReadLine();
+                    Console.Clear();
+                    spaceShipchoice();
+                    break;
+
             }
-            
         }
 
         public static void spaceshipStats()
